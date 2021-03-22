@@ -1,0 +1,13 @@
+Package: fakefca-dbgsym
+Package-Type: ddeb
+Source: fakefca
+Version: 1.0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Pablo Salva, <pablo.salva-garcia@uws.ac.uk>
+Installed-Size: 348
+Depends: fakefca (= 1.0)
+Section: debug
+Priority: optional
+Description: debug symbols for fakefca
+Build-Ids: 751e3d55a3ab0eaeda6e62b86515f1f18e89f235 d0ef7a71ca3ba0315c47944ae55a3eb74b639515 e54b582b0892049665a20b4fa96095a653a68a5d
